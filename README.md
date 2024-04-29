@@ -1,5 +1,4 @@
-# SIAR
-Sistema de inventario, alertas y restauración de imágenes con GLPI:
+<h2>Sistema de inventario, alertas y restauración de imágenes con GLPI:</h2>
 
 El proyecto consistirá en implementar una herramienta de gestión de inventario, que en este caso será GLPI con varias funcionalidades añadidas. Este sistema estará diseñado para recopilar información detallada sobre el hardware, el software y el estado de la red de todos los equipos dentro de la red con la ayuda de OCS Inventory. Además, se integrará un sistema de alertas que permitirá identificar y registrar cualquier comportamiento anómalo o no autorizado de los equipos, para así tener un control más completo.
 
@@ -11,7 +10,7 @@ Nuestra intención es separar los clientes por grupos como si fuera una escuela 
 
 --------------------------------------------------------------------------------------------------
 
-Inventory System with Alerts and Image Restoration using GLPI:
+<h2>Inventory System with Alerts and Image Restoration using GLPI:</h2>
 
 
 The project will consist of implementing an inventory management tool, which in this case will be GLPI with several added functionalities. This system will be designed to gather detailed information about the hardware, software, and network status of all devices within the network with the help of OCS Inventory. Additionally, an alert system will be integrated to identify and record any abnormal or unauthorized behavior of the devices, thus providing a more comprehensive control.
