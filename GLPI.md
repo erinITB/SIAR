@@ -1,3 +1,3 @@
 INSTALACIÓN DE GLPI:
 
-$ sudo apt-get update
+''' sudo apt-get update '''
