@@ -61,6 +61,19 @@ QUIT
 ```
 <b>Es muy recomendable mantener los nombres ya que son los predeterminados que aparecen en los archivos de configuración de OCS</b>
 
+Una vez tenemos el entorno preparado, nos dirijimos a la ruta donde descargaremos OCS:
+```
+cd /opt
+```
+Y descargamos el archivo de la <a href="https://ocsinventory-ng.org/?page_id=1548&lang=en">página oficial</a>. En la página oficial te pedirán el correo electrónico y te enviarán los enlaces de descarga a la cuenta que indiques:
+```
+sudo wget https://github.com/OCSInventory-NG/OCSInventory-ocsreports/releases/download/2.12.1/OCSNG_UNIX_SERVER-2.12.1.tar.gz
+```
+Una vez descargado, descomprimimos el archivo y nos movemos a la carpeta descomprimida:
+```
+tar -xzvf OCSNG_UNIX_SERVER-2.12.1.tar.gz
+cd OCSNG_UNIX_SERVER-2.12.1
+```
 
 
 
