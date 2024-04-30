@@ -142,3 +142,13 @@ Y ya podremos acceder desde el navegador:
 ```
 http://ip-servidor/ocsreports
 ```
+Al entrar nos saldrá una página para configurar la conexión con la Base de Datos donde tendremos que rellenar con la siguiente información:
+
+- ```MySQL login:``` usuario de la base de datos (ocs)
+- ```MySQL password:``` contraseña del usuario
+- ```Name of Database:``` nombre de la base de datos (ocsweb)
+- ```MySQL hostname:``` localhost
+- ```MySQL Port:``` puerto que hayamos configurado (3306 por defecto)
+- ```Enable SSL:``` NO
+
+El resto de opciones las dejamos vacías.
