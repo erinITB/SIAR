@@ -74,7 +74,54 @@ Una vez descargado, descomprimimos el archivo y nos movemos a la carpeta descomp
 tar -xzvf OCSNG_UNIX_SERVER-2.12.1.tar.gz
 cd OCSNG_UNIX_SERVER-2.12.1
 ```
+Ahora procederemos a la instalación:
+```
+./setup.sh
+```
+Durante la instalación nos harán una serie de preguntas para la configuración que responderemos de la siguiente manera:
+```
+Do you wish to continue ([y]/n)? y
 
+Which host is running database server [localhost] ? ENTER
+
+On which port is running database server [3306] ? ENTER
+
+Where is Apache daemon binary [/usr/sbin/apache2ctl] ? ENTER
+
+Where is Apache main configuration file [/etc/apache2/apache2.conf] ? ENTER
+
+Which user account is running Apache web server [www-data] ? ENTER
+
+Which user group is running Apache web server [www-data] ? ENTER
+
+Where is Apache Include configuration directory [/etc/apache2/conf-available] ? ENTER
+
+Where is PERL interpreter binary [/usr/bin/perl] ? ENTER
+
+Do you wish to setup Communication server on this computer ([y]/n)? y
+
+Where to put Communication server log directory [/var/log/ocsinventory-server] ? ENTER
+
+Where to put Communication server plugins configuration files [/etc/ocsinventory-server/plugins] ? ENTER
+
+Where to put Communication server plugins Perl modules files [/etc/ocsinventory-server/perl] ? ENTER
+
+Do you wish to setup Rest API server on this computer ([y]/n)? y
+
+Where do you want the API code to be store [/usr/local/share/perl/5.x.x] ? ENTER
+
+Do you allow Setup renaming Communication Server Apache configuration file to 'z-ocsinventory-server.conf' ([y]/n) ? y
+
+Do you wish to setup Administration Server (Web Administration Console) on this computer ([y]/n)? y
+
+Where to copy Administration Server static files for PHP Web Console [/usr/share/ocsinventory-reports] ? ENTER
+
+Where to create writable/cache directories for deployment packages, administration console logs, IPDiscover and SNMP [/var/lib/ocsinventory-reports] ? ENTER
+------------------------------------------
+DON'T FORGET TO RESTART APACHE DAEMON !
+
+Enjoy OCS Inventory NG
+```
 
 
 
