@@ -1,3 +1,5 @@
+<h1 align="center">Instalación del Servidor OCS Inventory NG en Ubuntu</h1>
+
 Primero de todo instalaremos paquetes necesarios para la instalación:
 ```
 sudo apt -y install libxml-simple-perl libdbi-perl libdbd-mysql-perl libapache-dbi-perl libnet-ip-perl libsoap-lite-perl libarchive-zip-perl make build-essential libio-compress-perl nano 
