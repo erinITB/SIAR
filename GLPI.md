@@ -4,16 +4,24 @@ Lo primero que haremos será instalar apache, que es donde correrá GLPI:
 ``` 
 sudo apt-get install apache2
 ```
-Una vez hemos instalado apache, instalaremos un SGBD que en nuestro caso será mysql:
+Una vez hemos instalado apache, instalaremos un SGBD que en nuestro caso será MariaDB:
 ``` 
-sudo apt-get install mysql-server
+sudo apt-get install mariadb-server
 ```
-Cambiamos la contraseña a root por la que consideremos:
+Ejecutamos el siguiente comando para establecer la contraseña de root:
 ```
-mysql -u root -p 
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
-exit
+mysql_secure_installation
 ```
+Nos hará diferentes preguntas de configuración que responderemos de la siguiente manera:
+```
+Switch to unix_socket authentication [Y/n] n
+Change the root password [Y/n] y
+Remove anonymous users? [Y/n] y
+Disallow root login remotely? [Y/n] n
+Remove test database and access to it? [Y/n] y
+Reload privilege tables now? [Y/n] y
+```
+
 
 También necesitaremos instalar php ya que GLPI trabaja con este:
 ```
@@ -40,8 +48,8 @@ sudo apt install php8.1-{mysql,xml,curl,gd,intl,ldap,bz2,zip,mbstring} php-cas
 - Por último crearemos la base de datos sobre la que trabajará GLPI:
 ```
 sudo mysql -u root -p
-create database GLPI;
-exit
+CREATE DATABASE glpi;
+quit
 ```
 
 Llega el momento de acceder al GLPI mediante el navegador para poder acceder al asistente de instalación. Para acceder pondremos la ip o dominio del servidor/glpi(ej: 192.168.10.10/glpi). 
