@@ -122,7 +122,23 @@ DON'T FORGET TO RESTART APACHE DAEMON !
 
 Enjoy OCS Inventory NG
 ```
+Una vez instalado habilitaremos las configuraciones de apache:
+```
+sudo a2enconf ocsinventory-reports.conf 
+sudo a2enconf z-ocsinventory-server.conf 
+sudo a2enconf zz-ocsinventory-restapi.conf 
+```
+<b>En estos ficheros tendremos que asegurarnos de que la base de datos, el usuario y la contraseña corresponde con los que hemos creado</b>
 
-
-
-
+Cambiamos los permisos de la carpeta siguiente:
+```
+sudo chown -R www-data: /var/lib/ocsinventory-reports/ 
+```
+Reiniciamos el servicio de apache:
+```
+sudo systemctl restart apache2 
+```
+Y ya podremos acceder desde el navegador:
+```
+http://ip-servidor/ocsreports
+```
