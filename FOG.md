@@ -57,22 +57,3 @@ Una vez hecho esto si refrescamos la página nos saldrá la página de login nor
 Y ahora si con el usuario “fog” y contraseña “password” ya podremos entrar y ya estará listo!
 
 
-
-
-
-
-
-
-
-
-```
-
-
-```
-
-
-
-
-
-
-
