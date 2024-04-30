@@ -2,7 +2,7 @@
 
 Primero de todo instalaremos paquetes necesarios para la instalación:
 ```
-sudo apt -y install libxml-simple-perl libdbi-perl libdbd-mysql-perl libapache-dbi-perl libnet-ip-perl libsoap-lite-perl libarchive-zip-perl make build-essential libio-compress-perl nano 
+sudo apt -y install libxml-simple-perl libdbi-perl libdbd-mysql-perl libapache-dbi-perl libnet-ip-perl libsoap-lite-perl libarchive-zip-perl make build-essential libio-compress-perl 
 ```
 Una vez instalados los paquetes anteriores instalaremos varios módulos de PERL:
 ```
