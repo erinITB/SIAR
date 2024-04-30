@@ -45,6 +45,24 @@ short_open_tag = On
 post_max_size = 1024M 
 upload_max_filesize = 256M
 ```
+Ahora llegaría el momento de instalar la base de datos. En nuestro caso utilizaremos MariaDB que ya hemos instalado y configurado en la <a href="https://github.com/erinITB/SIAR/blob/main/GLPI.md">instalación de GLPI</a>.
+
+Una vez instalado el SGBD nos dispondremos a crear una Base de Datos para nuestro OCS:
+```
+mysql -u root -p 
+CREATE DATABASE ocsweb; 
+```
+Ahora crearemos un usuario y le daremos permisos para que pueda acceder la Base de Datos:
+```
+CREATE USER 'ocs'@'localhost' IDENTIFIED BY 'ocs'; 
+GRANT ALL PRIVILEGES ON ocsweb.* TO 'ocs'@'localhost' WITH GRANT OPTION; 
+FLUSH PRIVILEGES; 
+QUIT 
+```
+<b>Es muy recomendable mantener los nombres ya que son los predeterminados que aparecen en los archivos de configuración de OCS</b>
+
+
+
 
 
 
