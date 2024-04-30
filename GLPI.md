@@ -1,4 +1,4 @@
-<h1 align="center">Instalación de GLPI</h1>
+<h1 align="center">Instalación de GLPI en Ubuntu</h1>
 
 Lo primero que haremos será instalar apache, que es donde correrá GLPI:
 ``` 
