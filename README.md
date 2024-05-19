@@ -4,9 +4,9 @@ El proyecto consistirá en implementar una herramienta de gestión de inventario
 
 Además de la gestión y monitoreo continuo de los equipos, queremos añadir la implementación de un sistema de respaldo y restauración de imágenes en los ordenadores. Utilizaremos FOG Project, una herramienta de  que puede implementar imágenes de disco utilizando el entorno de ejecución de prearranque. Esto asegurará la disponibilidad y la rápida recuperación de los datos en caso de fallos o incidentes. 
 
-Para fortalecer más la seguridad de la red, también se contempla la implementación de una herramienta de análisis de vulnerabilidades automática. Nuestra primera opción es OpenVAS que proporcionará escaneos automatizados de vulnerabilidades en los sistemas de la red, permitiendo la identificación automática de posibles debilidades en el software y la configuración de los equipos.
+Para fortalecer más la seguridad de la red, también se contempla la implementación de una herramienta de análisis de vulnerabilidades automática. Utilizaremos Nessus, que proporcionará escaneos automatizados de vulnerabilidades en los sistemas de la red, permitiendo la identificación automática de posibles debilidades en el software y la configuración de los equipos.
 
-Nuestra intención es separar los clientes por grupos como si fuera una escuela (Profesor, DAM, DAW, ASIX…) y en función de esta clasificación, automatizar qué sistema operativo, softwares y configuraciones tendrá cada dispositivo para que así, en caso de instalar un nuevo equipo, solamente con indicar a qué grupo pertenece, se configure de la forma más rápida y automática posible.
+Separaremos los clientes por grupos como si fuera una escuela (Profesor, DAM, DAW, ASIX…) y en función de esta clasificación, automatizar qué sistema operativo, softwares y configuraciones tendrá cada dispositivo para que así, en caso de instalar un nuevo equipo, solamente con indicar a qué grupo pertenece, se configure de la forma más rápida y automática posible.
 
 --------------------------------------------------------------------------------------------------
 
