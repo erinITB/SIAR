@@ -1,6 +1,6 @@
 <h2>Sistema de inventario, alertas y restauración de imágenes con GLPI:</h2>
 
-El proyecto consistirá en implementar una herramienta de gestión de inventario, que en este caso será GLPI con varias funcionalidades añadidas. Este sistema estará diseñado para recopilar información detallada sobre el hardware, el software y el estado de la red de todos los equipos dentro de la red con la ayuda de OCS Inventory. Además, se integrará un sistema de alertas que permitirá identificar y registrar cualquier comportamiento anómalo o no autorizado de los equipos, para así tener un control más completo.
+El proyecto consistirá en implementar una herramienta de gestión de inventario, que en este caso será GLPI con varias funcionalidades añadidas. Este sistema estará diseñado para recopilar información sobre todos los equipos dentro de la red con la ayuda de OCS Inventory. También implementaremos un sistema de ticketing para recoger todas las incidencias que ocurran en los clientes.
 
 Además de la gestión y monitoreo continuo de los equipos, queremos añadir la implementación de un sistema de respaldo y restauración de imágenes en los ordenadores. Utilizaremos FOG Project, una herramienta que puede implementar imágenes de disco utilizando el entorno de ejecución de prearranque. Esto asegurará la disponibilidad y la rápida recuperación de los datos en caso de fallos o incidentes. 
 
