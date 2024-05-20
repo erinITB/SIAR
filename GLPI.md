@@ -83,7 +83,7 @@ sudo nano /etc/apache2/sites-available/000-default.conf
 ```
 En este fichero cambiaremos el DocumentRoot a: 
 ```
-DocumentRoot /var/www/html/glpi/public
+DocumentRoot /var/www/html/glpi
 ```
 Y añadiremos las siguientes líneas:
 ```
